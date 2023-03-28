@@ -1,0 +1,30 @@
+{
+  "name": "@gosen/diff",
+  "type": "module",
+  "version": "0.0.2",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manvalls/gosenjs-diff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manvalls/gosenjs-diff/issues"
+  },
+  "homepage": "https://gosen.dev",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@gosen/command-types": "^0.0.2"
+  }
+}
